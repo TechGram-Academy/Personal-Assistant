@@ -62,7 +62,7 @@ def play_specific_song(song_name):
             song_uri = songs[0]
             command = 'rhythmbox-client --play-uri="' + song_uri + '"'
             os.system(command)
-            return ("playing  " + song_name)
+            return ("playing " + song_name)
         except:
             return("song not found in your computer")
             
